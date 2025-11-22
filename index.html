@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comunicados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="logotipo.png" alt="Logo" class="logo">
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Buscar comunicados...">
+      <button id="btnSearch">Buscar</button>
+      <button id="btnRefresh">Atualizar</button>
+    </div>
+  </header>
+
+  <!-- Atualizado para funcionar com o JS -->
+  <marquee id="marquee" behavior="scroll" direction="left">
+    Carregando últimos comunicados...
+  </marquee>
+
+  <main>
+    <div id="cardsContainer" class="cards"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

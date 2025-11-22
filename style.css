@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  font-family: "Saira";
+}
+
+header {
+  background: #012c57;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  height: 60px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  font-family: "Saira";
+}
+
+.search-box input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 180px;
+  font-family: "Saira";
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #1976d2;
+  color: white;
+  cursor: pointer;
+  font-family: "Saira";
+}
+
+button:hover {
+  background: #0e5cab;
+}
+
+marquee {
+  background: #1976d2;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-family: "Saira";
+}
+
+marquee a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Saira";
+}
+
+marquee a:hover {
+  text-decoration: underline;
+}
+
+.cards {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  font-family: "Saira";
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: "Saira";
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card .tag {
+  background: #1976d2;
+  color: white;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-top: 8px;
+  font-family: "Saira";
+}
+
+.card h3 {
+  margin: 10px 0 6px;
+  font-family: "Saira";
+}
+
+.card p {
+  color: #666;
+  font-family: "Saira";
+}
+
+.card a {
+  margin-top: 10px;
+  display: inline-block;
+  background: #1976d2;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: "Saira";
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+.card a:hover {
+  background: #0e5cab;
+}
+
+
